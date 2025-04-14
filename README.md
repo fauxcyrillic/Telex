@@ -8,6 +8,14 @@ Not too many major changes required, as most of the Teletype innards run off a r
 
 Loads of testing required before this is a confirmed 'thing', but feel free to take, inspect, and improve as you wish.
 
+# Updates v1.6 (Apr 2025)
+
+I'm putting this on the back burner indefinitely. Anyone is more than welcome to iterate on it from here. It is possible I'll return to this at some point.
+
+As it stands, Telex is at least 95% working perfectly. The remaining issue, which I just can't solve, is the OLED seemingly drawing enough power to make other modules on the bus cable unstable, eg. oscillators go slightly out of tune when lots is happening on the OLED. My most recent attempt to mitigate this was to power the display directly from 12V using a boost circuit (in earlier versions it was powered from 3.3V, as in the Monome original module). In theory and according to the Newhaven Display datasheet, this hugely reduces current draw; I really thought this would help, but it didn't. Alas, my current knowledge of electrical engineering is not strong enough to track down the cause of this, and after something like four prototypes I can't justify spending more time and £££ on it for now. It is frustratingly close to completion! If you're a whiz with electronics and can solve this, do let me know.
+
+I've updated this repo with the most recent gerbers and schematics, for reference.
+
 # Updates v1.3 (Feb 2024)
 
 Tested with a basic non-backlit keyboard; much better performance (no crashing, lower background noise)
