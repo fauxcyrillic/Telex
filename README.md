@@ -15,3 +15,4 @@ Current version requires external USB-C power to operate. Module is connected to
 * Adafruit USB-C vertical breakout board
 * MCP6004 x 2
 * TPS2021P power switch IC
+* C&K SPST – Momentary – OFF – (ON) button switch
